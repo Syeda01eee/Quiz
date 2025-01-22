@@ -1,0 +1,29 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.quiz-container {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+#options {
+  list-style-type: none;
+  padding: 0;
+}
+
+#options li {
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+#options li:hover {
+  background-color: #d0d0d0;
+}
